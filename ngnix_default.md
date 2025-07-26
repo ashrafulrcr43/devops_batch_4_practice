@@ -1,7 +1,8 @@
+# Simple ngnig server Configuration
 
-server {
-    listen 80;
-    server_name yourdomain.com;  # Replace with your domain or IP
+server { 
+    listen 80; 
+    server_name yourdomain.com;  
 
     location / {
         proxy_pass http://localhost:3000;
@@ -26,7 +27,7 @@ upstream my_app_backend {
 
 server {
     listen 80;
-    server_name yourdomain.com;  # Replace with your domain or IP
+    server_name yourdomain.com;  
 
     location / {
         proxy_pass http://my_app_backend;
