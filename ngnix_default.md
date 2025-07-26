@@ -1,3 +1,4 @@
+
 server {
     listen 80;
     server_name yourdomain.com;  # Replace with your domain or IP
@@ -22,7 +23,7 @@ upstream my_app_backend {
     # Add more as needed
 }
 
-# Server block listening on port 80
+
 server {
     listen 80;
     server_name yourdomain.com;  # Replace with your domain or IP
