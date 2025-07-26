@@ -17,6 +17,7 @@ server {
 
 # multipule server 
 
+<pre>
 upstream my_app_backend {
     server 127.0.0.1:3000;
     server 127.0.0.1:3001;
@@ -38,3 +39,4 @@ server {
         proxy_cache_bypass $http_upgrade;
     }
 }
+</pre>
