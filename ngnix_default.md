@@ -1,5 +1,5 @@
 # Simple ngnig server Configuration
-
+<pre>
 server { 
     listen 80; 
     server_name yourdomain.com;  
@@ -13,7 +13,7 @@ server {
         proxy_cache_bypass $http_upgrade;
     }
 }
-
+</pre>
 
 # multipule server 
 
